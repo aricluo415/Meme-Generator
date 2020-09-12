@@ -1,13 +1,22 @@
 .header {
-  margin: 0 auto;
-  width: 80%;
   text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: azure;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 .container {
-    position: relative;
-    height: 300px;
-    width: 300px;
-    color: black;
+  position: relative;
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  color: black;
+  font-family: impact;
+  text-align: center;
+  font-size: 30px;
+  overflow: hidden;
+  overflow-wrap: break-word;
   }
   .image {
     height: 100%;
@@ -15,26 +24,26 @@
   }
   .top {
     position: absolute;
-    width: 300px;
+    width: 280px;
     height: 150px;
-    top: 5px;
-    text-align: center;
-    font-size: 30px;
+    top: 10px;
     color: white;
+    margin: 10px 10px;
   }
   .bottom {
     position: absolute;
-    width: 300px;
-    bottom: 5px;
-    text-align: center;
-    font-size: 30px;
+    width: 280px;
+    max-height: 150px;
+    bottom: 10px;
     color: white;
-    margin-bottom: 10px;
+    margin: 10px 10px;
   }
   .btn {
     position: absolute;
-  top: 8px;
-  right: 16px;
+    top: 10px;
+    right: 9.5px;
+    background-color: transparent;
+    color: red;
   }
   input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -51,17 +60,19 @@
     margin-left: 20%;
   }
   .contain {
-    width: 100%;
-    display:grid;
+    width: 80%;
+    display: grid;
     grid-template-columns: 1fr 4fr;
+    margin: auto;
   }
 
   label {
     text-align: left;
     font-size: 20px;
     padding: 12px;
-    margin-bottom: 15px; /* Bottom margin */
+    margin-bottom: 15px;
     margin-top: 15px;
+    font-family: cursive;
   }
   form {
     width: 100%;
@@ -69,9 +80,19 @@
   }
 
   #imgs {
-    margin: 0 auto;
+    width: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin:0 auto;
-    padding: 15px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: auto;
+  }
+  body {
+    background-color: white;
+    margin: 0px;
+  }
+  h1 {
+    margin-top: 0px;
   }
